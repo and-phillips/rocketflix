@@ -37,7 +37,7 @@ function getMovie() {
     .catch(() => {
       container.innerHTML = `
         <div class="movie-poster">
-          <img src="./assets/poster.png" alt="movie-poster" id="poster">
+          <img src="./assets/coding.png" alt="movie-poster" id="poster">
         </div>
         <div class="movie-infos coding">
           <p class="noFilm">Ops, hoje não é dia de assistir filme. Bora codar! 🚀</p>
